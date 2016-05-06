@@ -257,7 +257,7 @@ Label12_EndLoop:
 	sb $a0 ($t0)
 Label12_Copy:
 	sub $v1 $v0 $t0
-	add $v1 $v1 16
+	add $v1 $v1 15
 	sw $v1 ($v0)
 	add $v1 $v0 4
 Label12_CopyCond:
